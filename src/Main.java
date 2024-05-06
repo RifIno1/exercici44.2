@@ -12,7 +12,9 @@ public class Main {
                 Joc.novaPartida();
                 break;
             case 2:
+                /*
                 joc.carregarPartida();
+                */
                 break;
             case 3:
                 System.exit(0);

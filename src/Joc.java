@@ -3,7 +3,6 @@ class Joc {
 
     public Joc() {
         char torn = 'X';
-        novaPartida();
     }
 
     public static void novaPartida() {
@@ -14,6 +13,8 @@ class Joc {
         }
     }
 
+    /* 
     public void carregarPartida() {
     }
+    */
 }

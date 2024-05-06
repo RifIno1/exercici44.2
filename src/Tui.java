@@ -6,7 +6,9 @@ class Tui {
 
     public int mostrarMenu() {
         System.out.println("1. Nova partida");
+        /*
         System.out.println("2. Carregar partida");
+        */
         System.out.println("3. Sortir");
         System.out.print("Escull una opció: ");
         return scanner.nextInt();
