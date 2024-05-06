@@ -9,7 +9,7 @@ public class Main {
         System.out.print(resultado);
         switch (resultado){
             case 1:
-                joc.novaPartida();
+                Joc.novaPartida();
                 break;
             case 2:
                 joc.carregarPartida();

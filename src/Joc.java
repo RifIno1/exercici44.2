@@ -1,14 +1,12 @@
 class Joc {
-    private char[][] taulell;
-    private char torn;
+    private static final char[][] taulell = new char[3][3];
 
     public Joc() {
-        this.taulell = new char[3][3];
-        this.torn = 'X'; // Comença el jugador X
+        char torn = 'X';
         novaPartida();
     }
 
-    public void novaPartida() {
+    public static void novaPartida() {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 taulell[i][j] = ' ';
